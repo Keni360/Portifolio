@@ -1,0 +1,110 @@
+
+body{background-color: #ccc; color:#fff;}
+
+#footer{min-height:100px; background-color:#377C6E; text-align:center; margin-bottom:none; font-size:.9em;}
+#footer ul{ margin-top:2.5%;}
+#footer ul li{padding:0; list-style:none;}
+
+.foto-legenda{ position:relative; color:#fff; text-align:center;}
+.foto-legenda img { width:100%; height:250px;}
+.foto-legenda figcaption{ height:100%; width:100%; position:absolute; top:0px; background-color:rgba(0,0,0,.5); opacity:0;}
+
+a:hover figcaption{opacity:1; transition:1s;}
+
+@media (max-width: 600px){
+  
+  #home-img{display:none; margin:0; height:0px; width:0;}
+  #home{
+  background-color:#3498db;
+  padding-top:10vh;
+  padding-bottom:10vh;
+  text-align:center;  
+ }
+  #nav-menu{display:none;}
+  #dropdown span{border-radius:10px; padding:10px 11%; margin-bottom:2vh; border:solid 1px;}
+  #dropdown ul{list-style: none; padding:0; width:30%; text-align:center;}
+  #dropdown ul li{font-size:2em;margin-bottom:1vh; border-bottom: solid 1px;}
+  #dropdown a{color:#fff;}
+  #ddd{width:20%;}
+  .section{ 
+  padding-top:8vh;
+  padding-bottom:5vh;
+  min-height:200px;  
+  }  
+}
+
+@media (min-width:601px){
+  .section{ 
+  padding-top:8vh;
+  padding-bottom:10vh;
+  min-height:100vh;  
+  }
+
+  #home{
+    background-color:#3498db;
+    padding-top:20vh;
+    text-align:center;
+     min-height:100vh;
+  }
+
+  
+  #dropdown{display:none;}
+  #nav-menu{display:block;}
+  
+  .title-l1{ text-align:center; padding-bottom:5vh; border-bottom:solid #fff 3px; max-width:25%; margin-bottom:5vh;}
+}
+button{margin:7vh auto ;}
+			
+.btn {background-color:transparent; padding:5%; border:solid #fff 2px; color:#fff; border-radius:30px; }
+.btn-p {background-color:transparent; padding:1.5%; border:solid #fff 2px; color:#fff; border-radius:100px; }
+.btn:hover{ 
+  background-color:rgba(0,0,0,.2);
+  transition:.5s;
+  color:#fff;
+  border: solid #fff 2px;
+}
+
+.circle-bg{border-radius:100%; width:150px; height:150px; ; background-repeat:no-repeat; background-position:center;}
+
+#circle-1{background-color:#2980B9;background-image:url('http://www.keniwd.16mb.com/img/ico1.png')}
+
+#circle-2{background-color:#F1C40F;background-image:url('http://www.keniwd.16mb.com/img/ico2.png')}
+
+#circle-3{background-color:#EC8176;background-image:url('http://www.keniwd.16mb.com/img/ico3.png')}
+
+
+.title-1{text-align:center; margin-bottom:5vh;}
+.title-l1{ text-align:center; padding-bottom:5vh; border-bottom:solid #fff 3px; width:50%; margin-bottom:5vh;}
+.title-2{text-align:center; margin-bottom:10vh;}
+.s-title{text-align:center; width:75%; margin-bottom:10vh; text-align:center;}
+
+#top-bar{background-color:rgba(0,0,0,.4);}
+
+
+#nav-menu{float:right; text-align:center; font-size:.9em;}
+
+#nav-menu a{color:#fff; text-decoration:none;}
+
+#nav-menu div{
+    height:10vh;
+    padding-top:5vh;
+}
+
+#nav-menu div:hover{
+  background-color:rgba(0,0,0,.5);
+  transition: .5s;
+}
+
+#home-img{ margin-top:15vh; }
+#home-img img{width:150%;}
+
+#sobre-nos{background-color:#1ABC9C; text-align:center;}
+
+#portifolio{background-color:#EA6E61;}
+
+#contato{background-color:#5CCFB8;}
+#contato span{margin-bottom:2vh;}
+
+.form-flat input, textarea{border:none; color:rgba(0,0,0,.5); margin-right:2%;}
+
+#ddd{ width:14%;}

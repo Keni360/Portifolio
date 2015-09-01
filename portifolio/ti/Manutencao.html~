@@ -1,0 +1,68 @@
+<!DOCTYPE html5>
+<HTML>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta charset = "UTF8" />
+<link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+</head>
+
+ <body>
+	
+	<div id="box1">
+			<figure class="banner"><img  src="img/banner.jpg" width="500px"alt="300px"/></figure>
+
+		<nav id="contatos">
+			<ul>
+				<li><img class="icons"src="img/fone.gif" /> (31) 3333 - 3333</li>
+				<li><img class="icons" src="img/cel.png" />(31) 9999 - 9999</li>
+			</ul>
+		</nav>
+	
+
+<section>
+		<nav id="menu_horizontal">
+			<ul id="menu">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="#">SERVIÇOS</a>
+				    <ul>
+							<li><a href="#">MANUTENÇÃO</a></li>
+							<li><a href="#">INSTALAÇÃO</a></li>
+							<li><a href="#">CONSULTORIA</a></li>
+				    </ul>	
+				</li>
+				<li><a href="#">CONTATO</a></li>
+				<li><a href="#">SOBRE NÓS</a></li>
+				<li><a href="#">TRABALHE CONOSCO</a>
+					 <ul>
+							<li><a href="#">FORNECEDOR</a></li>
+							<li><a href="#">PROFISSIONAL DA ÁREA</a></li>					 
+					 </ul>	
+				</li>				
+			</ul>
+		</nav>	
+	</section>
+	<div id="listaa">
+		<ul class="lista" style="">
+			<li> <img src="img/b.gif"/>PORTÃO ELETRICO</li>
+			<li> <img src="img/b.gif"/>CFTV</li>
+			<li><img src="img/b.gif"/> SENSORES E ALARMES</li>
+			<li><img src="img/b.gif"/> a</li>
+			<li><img src="img/b.gif"/> a</li>
+			<li><img src="img/b.gif"/> a</li>
+		</ul>
+	</div>
+	
+		<figure class="manu">
+				<img src="img/por_ele.jpg" width="300"alt="" /> 
+	</figure> 
+
+	</div>	
+			<div id="rodape">
+		
+							<ul class"rodape_text">
+								<li>Produzido por KW-DESIGN ® </li> 
+								<li>Todos os direitos reservados</li>					
+							</ul>		
+		</div>
+ </body>
+</HTML>
