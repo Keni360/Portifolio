@@ -135,3 +135,4 @@ button{margin:7vh auto ;}
 
 .form-flat input, textarea{border:none; color:rgba(0,0,0,.5); margin-right:2%;}
 #ddd{ width:14%;}
+.btn-form {background-color:#16a085; color:#fff; padding:5% 47%; border:solid rgba(0,0,0,.2) 2px;}

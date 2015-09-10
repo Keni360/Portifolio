@@ -141,7 +141,7 @@
         <div class='col-md-3 '>
 
         </div>
-        <div class='col-md-3 title-1'>
+        <div class='col-md-3 col-xs-4 title-1'>
 		<a href='http://www.maurovieira.16mb.com/portifolio/juarez/'>
 			<figure class='foto-legenda'>
 				<img src='img/l2.png' class='center-block' />
@@ -152,7 +152,7 @@
 			</figure>			
 		</a>
         </div>
-        <div class='col-md-3 title-1'>
+        <div class='col-md-3 col-xs-4 title-1'>
 			<a href='http://maurovieira.16mb.com/portifolio/ti/'>
 				<figure class='foto-legenda'>
 				<img src='img/l3.png' class='center-block' />
@@ -169,7 +169,7 @@
         </div>
         
         <div class='row-fluid'>
-          <div class='col-md-12'>
+          <div class='col-md-12 col-xs-12'>
             <button class='center-block btn-p btn-default'>Ver mais</button>
           </div>
         </div>
@@ -190,7 +190,7 @@
 			<div class='col-md-6 col-xs-12'>
 			  
 			  <!--Formulario de contato -->
-			  <form class='form-flat'>
+			  <form class='form-flat' name='formContato' method='POST'>
 				<span class='col-md-12 col-xs-12'>
 				  <label class='col-md-3 col-xs-4' for='_nome'>Nome:</label>
 				  <input name='_nome'class='col-md-8 col-xs-7' type='text' placeholder='Escreva seu nome aqui' required=''/>
@@ -208,15 +208,11 @@
 				  <label for='_msg' class='col-md-3 col-xs-4'>Mensagem:</label>
 				  <textarea class='col-md-7 col-xs-6' name='_msg' placeholder='Digite sua mensagem aqui' required=''></textarea>
 				</span>
-				
-				<span class='col-md-12 col-xs-12'>
-				  <span class='col-md-3 col-xs-2'>
-				  </span>
+          <span class='col-md-3'>
+          </span>
 				  <span class='col-md-6 col-xs-8' >
-					<input type='submit' value='enviar'/>
-					<input value='apagar' type='reset'/>
-				  </span>
-				</span>				
+            <span id='submit' onclick='enviar()' class='btn btn-form'>Enviar</span>
+				  </span>				
 			  </form>
 			  
 			</div>

@@ -29,7 +29,7 @@
         $('#sub-menu').toggle('slow');
         $('#top-bar').css("background-color","rgba(0,0,0,.8)");
       });
-  });
+
 
   $('#sub-menu li').click(function(){
     $('#sub-menu').toggle('slow');
@@ -37,3 +37,12 @@
     
   });
 /*====================================*/
+  });
+
+
+	/*submit/ enviar formulário javascript*/
+	function enviar(){
+		document.formContato.submit()
+	} 
+	 
+
